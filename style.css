@@ -1,35 +1,42 @@
 header {
   text-align: center;
-  padding: 30px;
-  background-color: #333333;
+  padding: 20px;
+  background-color: #333;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 form {
-  padding-top: 34px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding: 20px;
+  text-align: center;
 }
+
 .rodape {
   background-color: #333;
   color: #fff;
-  padding: 21px;
+  padding: 20px;
   text-align: center;
   margin-top: 50px;
 }
 
-body .nav {
+.nav {
   background-color: #333;
+  padding: 10px 0;
 }
 
 .nav-link {
   color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 .btn {
   background-color: #333;
+  color: #fff;
   border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
